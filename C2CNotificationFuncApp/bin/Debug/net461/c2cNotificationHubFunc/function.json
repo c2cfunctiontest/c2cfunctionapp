@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "c2clabresultpushsb_RootManageSharedAccessKey_SERVICEBUS",
+      "topicName": "shanuka",
+      "subscriptionName": "doctorimagingresultsubscription",
+      "access": "manage",
+      "direction": "in",
+      "name": "mySbMsg"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\C2CNotificationFuncApp.dll",
+  "entryPoint": "C2CNotificationFuncApp.SendNotifications.Run"
+}

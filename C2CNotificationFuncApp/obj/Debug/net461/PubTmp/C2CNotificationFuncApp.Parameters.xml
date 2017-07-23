@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="c2clabresultazurefunction" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\C2C\\Mobile\\DoctorApp\\Notification\ Hub\\C2CNotificationFuncApp\\C2CNotificationFuncApp\\obj\\Debug\\net461\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
