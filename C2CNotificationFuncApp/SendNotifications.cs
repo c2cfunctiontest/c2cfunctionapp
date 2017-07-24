@@ -36,7 +36,7 @@ namespace C2CNotificationFuncApp
         static async void FormatMessageAndSendNotificationsAsync(NotificationHubClient hub, string message, string tag, TraceWriter log)
         {
             string messageBody = null;
-            Microsoft.Azure.NotificationHubs.NotificationOutcome outcome = null;
+            NotificationOutcome outcome = null;
             tag = "shanuka";
             log.Info("started format and send notifications async method");
             var registrations = await hub.GetRegistrationsByTagAsync(tag, 100);
